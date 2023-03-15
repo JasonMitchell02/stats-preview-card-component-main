@@ -125,7 +125,8 @@ main {
   content: '';
   height: 100%;
   width: 100%;
-  background-color: hsla(277, 61%, 40%, 0.7);
+  background-color: var(--accent);
+  mix-blend-mode: multiply;
   left: 0;
   top: 0;
 }
@@ -186,7 +187,7 @@ h2 {
   .main-content {
     grid-row: 1;
     text-align: left;
-    padding: 5rem;
+    padding: 4rem;
   }
 
   h1 {
